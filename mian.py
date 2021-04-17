@@ -65,7 +65,7 @@ def Enter_pressed():
     if input_get.lower() in translate_synonyms:
         i = open('Corpus.txt','r')
         content = i.read()
-        final = translator.translate(content, dest = 'fr')
+        final = translator.translate(content, dest = 'ch')
         print(final.text)
         
     if input_get.startswith("navigation"):
