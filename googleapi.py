@@ -1,6 +1,6 @@
 import requests as req
 import re
-class GoogleNavigation():
+class GoogleNavigator():
     def __init__(self):
         self.apikey="AIzaSyAni6-Fnvcn5lPL4ktloi3epdBYyHvP1aw"
 
