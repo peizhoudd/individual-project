@@ -8,7 +8,7 @@ from nltk.corpus import wordnet
 import googletrans 
 from googletrans import Translator
 import json
-from Project import GoogleDirect
+from Project import GoogleNavigator
 
 
 translator = Translator()
